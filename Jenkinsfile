@@ -50,7 +50,7 @@ sh 'ls /jenkins'
 sh 'sudo docker-compose -f $BUILD_HOME/docker-compose.yml down'
 sh 'sudo docker-compose -f $BUILD_HOME/docker-compose.yml rm'
 sh 'sudo docker rmi -f devopstest1_flasc_server python'
-sh 'rm -fr /jenkins/workspace/*'
+// sh 'rm -fr /jenkins/workspace/*'
 
   }
  }
