@@ -39,7 +39,6 @@ stage('done') {
     agent { label 'aws' }
 steps {
 echo 'done successfully!'
-sh 'ls ~'
    }
   }
  }
